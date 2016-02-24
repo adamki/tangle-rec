@@ -1,0 +1,23 @@
+{
+  "name": "tangle-rec",
+  "version": "1.0.0",
+  "description": "A fun javascript library for working with rectangles!!!",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamki/tangle-rec.git"
+  },
+  "keywords": [
+    "geometry",
+    "fun"
+  ],
+  "author": "adam ki jensen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adamki/tangle-rec/issues"
+  },
+  "homepage": "https://github.com/adamki/tangle-rec#readme"
+}
