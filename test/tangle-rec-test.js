@@ -47,4 +47,27 @@ describe('Rectangle', function(){
     });
 
   })
+
+
+  describe("#perimeter", function(){
+    it("should have a perimter method", function(){
+      assert(Rectangle.prototype.perimeter, "Prototype does not have a perimter method")
+    });
+
+    it("should return the perimeter", function(){
+      var rect = new Rectangle(0, 0, 10, 10);
+      assert.equal(rect.perimeter(), 40)
+    });
+  })
+
+  describe("#area", function(){
+    it("should have an area method", function(){
+      assert(Rectangle.prototype.area, "Prototype does not have an area method")
+    });
+
+    it("should return the area", function(){
+      var rect = new Rectangle(0, 0, 10, 10);
+      assert.equal(rect.area(), 100)
+    });
+  })
 })

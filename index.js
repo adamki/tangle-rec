@@ -9,4 +9,11 @@ function Rectangle(x, y, width, height){
   this.height = height;
 }
 
+Rectangle.prototype.perimeter = function(){
+  return (this.width * 2) + (this.height * 2)
+}
+
+Rectangle.prototype.area = function(){
+  return this.height * this.width
+}
 module.exports = Rectangle;
